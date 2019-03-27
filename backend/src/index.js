@@ -62,7 +62,7 @@ app.post('/', (req, res) => {
 }
   else{
     res.status(200).send("name existed");
-    //console.log("name existed");
+    
   }
 });
 
